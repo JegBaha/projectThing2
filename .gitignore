@@ -361,3 +361,28 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# React Native Specific
+
+# Node modules
+node_modules/
+
+# Build files
+/android/app/build/
+/ios/build/
+
+# React Native Metro bundler cache
+/metro-cache/
+/jest-cache/
+
+# Large files
+*.mp4
+*.mov
+*.mp3
+*.jpg
+*.png
+
+# Local environment files
+.env
+.env.*.local
+*.log
